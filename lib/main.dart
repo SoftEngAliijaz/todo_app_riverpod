@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:todo_app_riverpod/provider_examples/slider_provider.dart';
+import 'package:todo_app_riverpod/provider_examples/state_notifier_provider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
               titleTextStyle: TextStyle(color: Colors.white, fontSize: 20.0)),
           textTheme: GoogleFonts.latoTextTheme(Theme.of(context).textTheme),
         ),
-        home: SliderProviderScreen(),
+        home: StateNotifierProviderScreen(),
       ),
     );
   }
