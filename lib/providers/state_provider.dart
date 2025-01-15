@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-final counterProvider = StateProvider<int>((ref) => 0);
-
-final switchProvider = StateProvider<bool>((ref) {
-  return false;
-});
+import 'package:todo_app_riverpod/constants/app_utils.dart';
 
 class StateProviderScreen extends ConsumerWidget {
   const StateProviderScreen({super.key});
